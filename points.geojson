@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EEAS — European External Action Service (Brussels)",
+        "category": "EU institution",
+        "description": "Главный орган ЕС по внешней политике и дипломатии; ключевой актор в формировании политики безопасности и внешней политики Евросоюза.",
+        "source": "https://eeas.europa.eu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3517, 50.8503]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "European Commission — Sector for External Relations (Berlaymont, Brussels)",
+        "category": "EU institution",
+        "description": "Европейская комиссия участвует в формировании внешней политики через законодательство и финансовые инструменты.",
+        "source": "https://ec.europa.eu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3722, 50.8466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NATO Headquarters (Brussels)",
+        "category": "Security organization",
+        "description": "Кооперация и пересечения политики ЕС и НАТО — важный фактор безопасности в Европе в XXI веке.",
+        "source": "https://www.nato.int"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3497, 50.8466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "European Parliament (Strasbourg)",
+        "category": "EU institution",
+        "description": "Парламент участвует в обсуждении внешнеполитических и оборонных инициатив, формируя легитимацию политик.",
+        "source": "https://www.europarl.europa.eu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.7521, 48.5734]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sciences Po — Centre for International Studies (Paris)",
+        "category": "Research center",
+        "description": "Крупный европейский академический центр по исследованию внешней политики и безопасности ЕС.",
+        "source": "https://www.sciencespo.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3522, 48.8566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SWP — German Institute for International and Security Affairs (Berlin)",
+        "category": "Research center",
+        "description": "Один из ведущих европейских аналитических центров по вопросам безопасности и внешней политики.",
+        "source": "https://www.swp-berlin.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.4050, 52.5200]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chatham House (Royal Institute of International Affairs, London)",
+        "category": "Research center",
+        "description": "Британский think-tank с большим вкладом в исследования политики безопасности и отношений ЕС с миром.",
+        "source": "https://www.chathamhouse.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1278, 51.5074]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carnegie Europe (Brussels)",
+        "category": "Research center",
+        "description": "Европейский офис Carnegie — аналитика по внешней политике, обороне и безопасности в Европе.",
+        "source": "https://carnegieeurope.eu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3601, 50.8476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "European University Institute (Florence) — Robert Schuman Centre",
+        "category": "Research center",
+        "description": "Академические исследования по европейской политике, включающие вопросы безопасности и внешней политики.",
+        "source": "https://www.eui.eu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2550, 43.7687]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KIMEP University (Almaty)",
+        "category": "Regional research (Central Asia)",
+        "description": "Казахстанский исследовательский центр — полезно для сравнения внешней политики ЕС и её взаимодействия с Центральной Азией.",
+        "source": "https://kimep.kz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.8512, 43.2220]
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Map — EU Foreign Policy</title>
+
+  <!-- Leaflet CSS (без integrity) -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+    .leaflet-popup-content {
+      font-size: 14px;
+      line-height: 1.4em;
+    }
+    .legend {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      line-height: 1.4em;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Leaflet JS (без integrity) -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  ></script>
+
+  <script>
+    // 1. Создаем карту и ставим начальный вид
+    const map = L.map('map').setView([50.85, 4.35], 4); // Европа
+
+    // 2. Добавляем базовую карту (фон)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // 3. Загружаем GeoJSON (твои точки)
+    fetch('data/points.geojson')
+      .then(response => response.json())
+      .then(geojson => {
+        L.geoJSON(geojson, {
+          pointToLayer: (feature, latlng) => {
+            let color = 'red';
+            if (feature.properties.category === 'Research center') color = 'blue';
+            if (feature.properties.category === 'Security organization') color = 'green';
+
+            return L.circleMarker(latlng, {
+              radius: 7,
+              fillColor: color,
+              color: '#333',
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.8
+            });
+          },
+          onEachFeature: (feature, layer) => {
+            const p = feature.properties;
+            const popup = `
+              <strong>${p.name || 'Unnamed point'}</strong><br>
+              ${p.description || ''}<br>
+              ${p.source ? `<small><a href="${p.source}" target="_blank">Источник</a></small>` : ''}
+            `;
+            layer.bindPopup(popup);
+          }
+        }).addTo(map);
+      })
+      .catch(err => console.error('Ошибка загрузки GeoJSON:', err));
+
+    // 4. Добавляем легенду
+    const legend = L.control({ position: 'bottomright' });
+    legend.onAdd = function() {
+      const div = L.DomUtil.create('div', 'legend');
+      div.innerHTML = `
+        <strong>Категории:</strong><br>
+        <span style="color:red;">●</span> EU institution<br>
+        <span style="color:green;">●</span> Security organization<br>
+        <span style="color:blue;">●</span> Research center
+      `;
+      return div;
+    };
+    legend.addTo(map);
+  </script>
+</body>
+</html>
+
