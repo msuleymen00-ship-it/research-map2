@@ -52,8 +52,7 @@
     }).addTo(map);
 
     // 3. Загружаем GeoJSON (твои точки)
-    fetch('
-          points.geojson')
+    fetch('points.geojson')
       .then(response => response.json())
       .then(geojson => {
         L.geoJSON(geojson, {
@@ -100,5 +99,6 @@
   </script>
 </body>
 </html>
+
 
 
