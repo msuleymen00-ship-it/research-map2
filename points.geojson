@@ -1,135 +1,147 @@
 {
   "type": "FeatureCollection",
   "features": [
+
     {
       "type": "Feature",
       "properties": {
-        "name": "EEAS — European External Action Service (Brussels)",
+        "name": "European External Action Service (EEAS)",
         "category": "EU institution",
-        "description": "Главный орган ЕС по внешней политике и дипломатии; ключевой актор в формировании политики безопасности и внешней политики Евросоюза.",
-        "source": "https://eeas.europa.eu"
+        "description": "The EU’s diplomatic service responsible for implementing the Common Foreign and Security Policy.",
+        "source": "https://www.eeas.europa.eu"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3517, 50.8503]
+        "coordinates": [4.3833, 50.8466]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "European Commission — Sector for External Relations (Berlaymont, Brussels)",
+        "name": "European Commission",
         "category": "EU institution",
-        "description": "Европейская комиссия участвует в формировании внешней политики через законодательство и финансовые инструменты.",
-        "source": "https://ec.europa.eu"
+        "description": "The main executive body of the EU responsible for proposing legislation and managing EU external relations.",
+        "source": "https://commission.europa.eu"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3722, 50.8466]
+        "coordinates": [4.36, 50.84]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "NATO Headquarters (Brussels)",
-        "category": "Security organization",
-        "description": "Кооперация и пересечения политики ЕС и НАТО — важный фактор безопасности в Европе в XXI веке.",
-        "source": "https://www.nato.int"
+        "name": "Council of the European Union",
+        "category": "EU institution",
+        "description": "Coordinates the positions of EU member states on foreign and security policy.",
+        "source": "https://www.consilium.europa.eu"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3497, 50.8466]
+        "coordinates": [4.38, 50.84]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "European Parliament (Strasbourg)",
+        "name": "European Parliament",
         "category": "EU institution",
-        "description": "Парламент участвует в обсуждении внешнеполитических и оборонных инициатив, формируя легитимацию политик.",
+        "description": "Plays a role in shaping EU foreign policy and overseeing external action instruments.",
         "source": "https://www.europarl.europa.eu"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.7521, 48.5734]
+        "coordinates": [4.37, 50.83]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "Sciences Po — Centre for International Studies (Paris)",
-        "category": "Research center",
-        "description": "Крупный европейский академический центр по исследованию внешней политики и безопасности ЕС.",
-        "source": "https://www.sciencespo.fr"
+        "name": "NATO Headquarters",
+        "category": "Security organization",
+        "description": "A major security actor interacting with the EU in defense and security matters.",
+        "source": "https://www.nato.int"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3522, 48.8566]
+        "coordinates": [4.421, 50.879]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "SWP — German Institute for International and Security Affairs (Berlin)",
-        "category": "Research center",
-        "description": "Один из ведущих европейских аналитических центров по вопросам безопасности и внешней политики.",
-        "source": "https://www.swp-berlin.org"
+        "name": "OSCE Secretariat",
+        "category": "Security organization",
+        "description": "A key European security organization cooperating with the EU in conflict prevention.",
+        "source": "https://www.osce.org"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [13.4050, 52.5200]
+        "coordinates": [16.37, 48.21]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "Chatham House (Royal Institute of International Affairs, London)",
+        "name": "SIPRI – Stockholm International Peace Research Institute",
         "category": "Research center",
-        "description": "Британский think-tank с большим вкладом в исследования политики безопасности и отношений ЕС с миром.",
-        "source": "https://www.chathamhouse.org"
+        "description": "A leading think tank conducting research on international security and EU defence cooperation.",
+        "source": "https://www.sipri.org"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.1278, 51.5074]
+        "coordinates": [18.06, 59.34]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "Carnegie Europe (Brussels)",
+        "name": "European Union Institute for Security Studies (EUISS)",
         "category": "Research center",
-        "description": "Европейский офис Carnegie — аналитика по внешней политике, обороне и безопасности в Европе.",
+        "description": "The official EU think tank providing analysis for foreign, security, and defence policy.",
+        "source": "https://www.iss.europa.eu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32, 48.85]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruegel",
+        "category": "Research center",
+        "description": "A Brussels-based think tank studying EU policy, including external economic and geopolitical strategy.",
+        "source": "https://www.bruegel.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.355, 50.837]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carnegie Europe",
+        "category": "Research center",
+        "description": "A leading research center focusing on Europe's foreign policy and security challenges.",
         "source": "https://carnegieeurope.eu"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3601, 50.8476]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "European University Institute (Florence) — Robert Schuman Centre",
-        "category": "Research center",
-        "description": "Академические исследования по европейской политике, включающие вопросы безопасности и внешней политики.",
-        "source": "https://www.eui.eu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.2550, 43.7687]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "KIMEP University (Almaty)",
-        "category": "Regional research (Central Asia)",
-        "description": "Казахстанский исследовательский центр — полезно для сравнения внешней политики ЕС и её взаимодействия с Центральной Азией.",
-        "source": "https://kimep.kz"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [76.8512, 43.2220]
+        "coordinates": [4.354, 50.842]
       }
     }
+
   ]
 }
+
