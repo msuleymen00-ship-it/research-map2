@@ -1,7 +1,6 @@
 {
   "type": "FeatureCollection",
   "features": [
-
     {
       "type": "Feature",
       "properties": {
@@ -12,10 +11,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3833, 50.8466]
+        "coordinates": [4.38472, 50.84248]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -26,10 +24,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.36, 50.84]
+        "coordinates": [4.38300, 50.84400]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -40,38 +37,35 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.38, 50.84]
+        "coordinates": [4.38220, 50.84210]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
-        "name": "European Parliament",
+        "name": "European Parliament (Brussels)",
         "category": "EU institution",
         "description": "Plays a role in shaping EU foreign policy and overseeing external action instruments.",
         "source": "https://www.europarl.europa.eu"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.37, 50.83]
+        "coordinates": [4.37300, 50.83700]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "name": "NATO Headquarters",
         "category": "Security organization",
-        "description": "A major security actor interacting with the EU in defense and security matters.",
+        "description": "A major security actor interacting with the EU in defence and security matters.",
         "source": "https://www.nato.int"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.421, 50.879]
+        "coordinates": [4.42536, 50.88106]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -82,10 +76,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [16.37, 48.21]
+        "coordinates": [16.36590, 48.20920]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -96,10 +89,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.06, 59.34]
+        "coordinates": [18.06324, 59.33258]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -110,10 +102,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [2.32, 48.85]
+        "coordinates": [2.32140, 48.85300]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -124,10 +115,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.355, 50.837]
+        "coordinates": [4.35500, 50.83700]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -138,10 +128,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.354, 50.842]
+        "coordinates": [4.35400, 50.84200]
       }
     }
-
   ]
 }
+
 
